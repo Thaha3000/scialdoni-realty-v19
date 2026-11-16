@@ -1,0 +1,15 @@
+/* V17 brand update: provided Scialdoni Realty artwork; existing page layout is unchanged. */
+.nav .v17-brand-logo,.nav a.v17-brand-logo{display:inline-flex;align-items:center;flex:0 0 auto;line-height:0;text-decoration:none}
+.v17-brand-logo img{display:block;width:168px;height:auto;max-height:74px;object-fit:contain}
+.v17-footer-logo img{display:block;width:228px;height:auto;margin:0 auto 20px;max-width:100%}
+@media(max-width:950px){.v17-brand-logo img{width:146px}.navinner{gap:12px}}
+@media(max-width:550px){.v17-brand-logo img{width:133px}}
+/* Only for the restored contact submission UI */
+.v17-contact-info{font-size:12px!important;color:#717783!important;line-height:1.7!important;margin:0 0 3px!important}
+.v17-contact-info a{text-decoration:underline}
+.v17-contact-status{font-size:13px;line-height:1.65;color:#334967}
+.v17-contact-status[hidden]{display:none!important}
+.v17-contact-status.error{color:#8a2c2c}
+.v17-contact-consent{display:flex;align-items:flex-start;gap:8px;font-size:11px;line-height:1.6;color:#687081}
+.v17-contact-consent input{width:auto;min-width:16px;margin-top:3px}
+.v17-honeypot{position:absolute!important;left:-9999px!important;top:auto!important;width:1px!important;height:1px!important;overflow:hidden!important}
